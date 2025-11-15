@@ -10,7 +10,41 @@ A Python tool to search and fetch reviews from Letterboxd film pages.
 - Display film information (title, year, director, average rating)
 - Show review details including username, rating, text, likes, and date
 
-## Installation
+## 🚀 Quick Start with Google Colab (Recommended)
+
+The easiest way to use this tool is with Google Colab - no installation needed!
+
+### Option 1: Use the Colab Notebook (Easiest)
+
+1. **Open the notebook**: Click this link → [Open in Google Colab](https://colab.research.google.com/)
+2. **Upload the notebook**:
+   - Download `letterboxd_colab.ipynb` from this repository
+   - In Colab, click **File** → **Upload notebook** → Select the file
+3. **Run it**:
+   - Click **Runtime** → **Run all**
+   - Or run cells one by one with the play button
+4. **Customize your search**:
+   - In Step 3, change `FILM_URL` to any film you want
+   - Change `PAGE` or `SORT` as needed
+   - Run the cell again
+
+### Option 2: Quick Colab Setup (Copy & Paste)
+
+1. Go to [Google Colab](https://colab.research.google.com/)
+2. Create a new notebook
+3. Copy and paste the code from `letterboxd_colab.ipynb`
+4. Run all cells
+
+### Why Google Colab?
+- ✅ No installation required
+- ✅ Runs in your browser
+- ✅ Less likely to be blocked by Letterboxd
+- ✅ Free to use
+- ✅ Can export results to CSV
+
+---
+
+## 💻 Local Installation
 
 1. Clone this repository
 2. Install dependencies:
